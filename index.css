@@ -1,0 +1,193 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(85, 55, 67);
+}
+nav h5{
+    position: absolute;
+    color: #f8f7f7;
+    font-size: 35px;
+    font-weight:lighter;
+font-family: 'Updock', cursive;
+margin-left: 15%;
+margin-top: -19px;
+cursor: pointer;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    color: #f8f7f7;
+    font-size: 18px;
+    margin-right: 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0) solid;
+
+}
+
+nav span{
+    position: absolute;
+    color: #f8f7f7;
+    font-size: 18px;
+    margin-left: 60%;
+    border-bottom: 1px rgba(255, 255, 255, 0) solid;
+}
+nav li:hover{
+    border-bottom: 1px #f8f7f7 solid;
+}
+nav span:hover{
+    border-bottom: 1px #f8f7f7 solid;
+
+}
+/******** home section    ********/
+#home{
+    height: 60vh;
+    margin: 7%;
+}
+.imges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imges img{
+    margin-right: 15px;
+}
+#home h1{
+    position: absolute;
+    color: #f8f7f7;
+
+    font-size: 68px;
+    font-weight:100;
+    letter-spacing: 2px;
+margin-left: 31%;
+margin-top: -17%;
+cursor: pointer;
+}
+/********* about section**********/
+
+#about{
+    height: 90vh;
+    margin: 10% 10%;
+}
+#about h1{
+    color: #f8f7f7;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.leftside{
+    display: inline-block;
+}
+.leftside img{
+    border-radius: 2px;
+    margin: 7% 0;
+    
+}
+.leftside span{
+    color: #f8f7f7;
+    display: block;
+    margin: 9% 0;
+    font-size: 20px;
+
+}
+.leftside p{
+    color: #f8f7f7;
+    width: 400px;
+    font-size: 16px;
+
+}
+.rightside
+{
+    position: absolute;
+    display: inline-block;
+    margin: 3% 10%;
+}
+
+.rightside p{
+    margin: 6% 0;
+    color: #f8f7f7;
+    width: 400px;
+    font-size: 16px;
+}
+.rightside img{
+    width: 400px;
+}
+/*************product section**************/
+#product{
+    height: 100%;
+    margin: 0 10%;
+    position: relative;
+}
+#product h1{
+    color: #f8f7f7;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 7% 0;
+}
+hr{
+    opacity: 0.5;
+}
+
+.product{
+    padding: 5%;
+}
+.product img{
+    width: 200px;
+    border-radius: 3px;
+}
+.product span{
+    font-size: 13px;
+    color: #f8f7f7;
+    position: absolute;
+    margin: 7% 6% ;
+}
+.product p{
+    display: inline-block;
+    position: absolute;
+    color: #f8f7f7;
+    font-size: 17px;
+    margin: 9% 6% ;
+
+}
+/********* contact section ***********/
+
+#contact{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: 0 10%;
+}
+#contact h1{
+    color: #f8f7f7;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 7% 0;
+}
+.left_side{
+    display: inline-block;
+    margin: 2% 5%;
+}
+
+.left_side span{
+    color: #f8f7f7;
+    display: block;
+    margin: 12% 0;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.left_side h5{
+color: #f8f7f7;
+
+}
+.right_side{
+    position: absolute;
+    display: inline-block;
+    margin: 0 19%;
+}
